@@ -1,0 +1,22 @@
+
+-
+    request:
+        method: GET
+        url: 'https://randomuser.me/api/'
+        headers:
+            Host: randomuser.me
+    response:
+        status:
+            http_version: '1.1'
+            code: '200'
+            message: OK
+        headers:
+            Server: nginx
+            Date: 'Sun, 25 Oct 2015 06:07:41 GMT'
+            Content-Type: 'application/json; charset=utf-8'
+            Transfer-Encoding: chunked
+            Connection: keep-alive
+            X-Powered-By: PHP/5.5.9-1ubuntu4.11
+            access-control-allow-origin: '*'
+            Strict-Transport-Security: max-age=31536000;
+        body: "{\n    \"results\": [\n        {\n            \"user\": {\n                \"gender\": \"male\",\n                \"name\": {\n                    \"title\": \"mr\",\n                    \"first\": \"paul\",\n                    \"last\": \"fuller\"\n                },\n                \"location\": {\n                    \"street\": \"3952 alexander road\",\n                    \"city\": \"Loughrea\",\n                    \"state\": \"maine\",\n                    \"zip\": 70463\n                },\n                \"email\": \"paul.fuller@example.com\",\n                \"username\": \"beautifulfish648\",\n                \"password\": \"mikey\",\n                \"salt\": \"sIKMESTD\",\n                \"md5\": \"0d73bb30fc91ff4c843df16f56300820\",\n                \"sha1\": \"1a900ba3af1cf62eb2e2ab7d88d56b9f645c59c7\",\n                \"sha256\": \"d984d30100bb90fb97098cf6d98b714930f88912d25d8b8d4546792e47f7ddf3\",\n                \"registered\": 1310345636,\n                \"dob\": 791603008,\n                \"phone\": \"061-012-3837\",\n                \"cell\": \"081-256-1059\",\n                \"PPS\": \"3707462T\",\n                \"picture\": {\n                    \"large\": \"https://randomuser.me/api/portraits/men/43.jpg\",\n                    \"medium\": \"https://randomuser.me/api/portraits/med/men/43.jpg\",\n                    \"thumbnail\": \"https://randomuser.me/api/portraits/thumb/men/43.jpg\"\n                }\n            }\n        }\n    ],\n    \"nationality\": \"IE\",\n    \"seed\": \"dbcee6f567f4478b05\",\n    \"version\": \"0.7\"\n}"
