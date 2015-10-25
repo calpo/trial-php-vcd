@@ -1,0 +1,12 @@
+{
+    "name": "calpo/trial-php-vcr",
+    "require": {
+        "php-vcr/php-vcr": "^1.2"
+    },
+    "authors": [
+        {
+            "name": "Calpo",
+            "email": "calpo22@gmail.com"
+        }
+    ]
+}
